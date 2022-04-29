@@ -1,0 +1,33 @@
+.connaissances {
+    height: 100vh;
+    background-color: #C6C6FF;
+    display: none; 
+}
+
+/* .connaissances-content {
+   
+}   */
+
+.connaissances-content-item {
+    background-color: #C6C6FF;
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+    margin: 150px auto; 
+    box-shadow: -1px -1px 10px rgb(29, 29, 29) inset;
+} 
+.connaissances-content-item h2 {
+    background-color: #3a3a3a;
+    border-bottom: 1px solid rgba(31, 31, 31) ;
+    border-radius: 2px;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    color : #C6C6FF ;
+}
+
+.connaissances-content-item ul li {
+    text-align: justify;
+    padding-bottom: 4px;
+}

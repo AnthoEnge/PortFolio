@@ -1,0 +1,15 @@
+.formations {
+    background: #E4C6A7;
+    height: 100vh;
+    display: none;
+}
+
+.barForm {
+    background-color: rgb(63, 63, 63);
+    height: 10px;
+    width: 200px;
+    margin: 0 auto;
+    position: absolute;
+    left: 950px;
+    border-radius: 100px;
+}

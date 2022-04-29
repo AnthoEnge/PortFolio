@@ -1,0 +1,28 @@
+.about {
+    display: none;
+    background: #FF7373;
+    height: 100vh;
+}
+.barAbout {
+    background-color: rgb(63, 63, 63);
+    height: 10px;
+    width: 200px;
+    margin: 0 auto;
+    position: absolute;
+    left: 750px;
+    border-radius: 100px;
+}
+.logoAbout {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 70px;
+}
+.logoAbout i {
+    padding: 30px;
+    cursor: pointer;
+}
+
+.logoAbout i:hover {
+    transition: color 0.3s;
+    color: rgba(0, 0, 0, 0.952);
+}

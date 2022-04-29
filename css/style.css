@@ -1,0 +1,124 @@
+@import "connaissances.css";
+@import "aPropos.css";
+@import "contact.css";
+@import "formations.css";
+@import "acceuil.css";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+li, a {
+    text-decoration: none !important;
+    list-style: none !important;
+    color: black;
+}
+
+#header {
+    background-color: rgb(63, 63, 63);
+    width: auto;
+    height: 100vh;
+    float: left;
+    box-shadow: -1px -1px 10px rgb(29, 29, 29) inset;
+} 
+#header h2 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.titre {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 100px;
+}
+.titre span {
+    color: rgb(130, 184, 184);
+}
+.menu {
+    font-size: 25px;
+    
+    margin-top: 60px;
+}
+.menu li {
+    padding-top: 15px;
+}
+.image {
+    background-color: rgb(0, 0, 0);
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+    box-shadow: 0 0 20px black;
+    margin: 100px auto;
+}
+.border-image {
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 170px;
+    height: 170px;
+    margin: 100px auto;
+    box-shadow: 0 0 300px rgb(255, 255, 255) inset;
+}
+
+.actif {
+    display: block;
+}
+.actifMenu {
+    color: #82B8B8 !important;
+}
+.titreChapitre {
+    text-align: center;
+    padding-top: 220px;
+}
+.titreChapitre h1 {
+    font-size: 60px !important;
+}
+#changeMot {
+    text-decoration: underline !important;
+}
+
+/* hover */
+#accueilMenu:hover {
+    color: #82B8B8 !important;
+}
+#aboutMenu:hover {
+    color: #FF7373 !important;
+}
+#conMenu:hover {
+    color: #C6C6FF !important;
+}
+#formMenu:hover {
+    color: #E4C6A7 !important;
+}
+#contactMenu:hover {
+    color: #D2FFC4 !important;
+}
+
+@media screen and (max-width: 1024px) {
+    #header {
+        
+    }
+
+    .titreChapitre {
+        text-align: center;
+        padding-top: 90px;
+    }
+    .textAccueil {
+        padding-top: 50px;
+        padding-left: 350px;
+        padding-right: 50px;
+    }
+    .logoAbout {
+        display: none;
+    }
+    .connaissances-content {
+        margin-top: -80px;
+    }
+}
